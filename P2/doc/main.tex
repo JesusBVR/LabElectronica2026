@@ -1,0 +1,180 @@
+\documentclass[twocolumn]{article}
+\usepackage{amsmath}
+\newcommand{\dashfill}{\leavevmode\cleaders\hbox to 0.5em{\hss -\hss}\hfill\kern0pt}
+
+
+\author{}
+\title{title}
+
+\begin{document}
+\maketitle
+\subsection{Introducción:}
+
+La adquisición y procesamiento de señales analógicas depende altamente de poder discriminar cierto tipo de señales a partir de su frecuencia. Uno de los circuitos pasivos más básicos para realizar este trabajo son los filtros RC. Su funcionamiento se basa en el comportamiento de la reactancia capacitiva frente a una frecuencia angular de una señal de entrada, la cual está dada por: $X_C = 1/(\omega C)$ \cite{alexander2018fundamentos}.
+
+Dentro de los filtros RC existen dos tipos: los filtros pasa-bajas (LP) y los filtros pasa-altas (HP). Los primeros solo permiten el paso de frecuencias bajas, mientras que los pasa-altas solo permiten el paso de frecuencias altas. Existe un tercer filtro que se puede fabricar con los dos anteriores: el filtro pasa-banda; este permite el paso únicamente de una banda de frecuencias determinada. Para poder configurar adecuadamente el filtro se utiliza la frecuencia de corte ($\omega_c$), la cual permite delimitar qué frecuencias pasan o se bloquean, y está definida como: $\omega_c = 1/RC$ \cite{nilsson2015circuitos}.
+
+Para describir la relación de salida frente a la entrada ante ondas sinusoidales a través de los filtros RC se utiliza una herramienta matemática llamada \textbf{función de transferencia}, la cual se define en el dominio de Laplace como:
+\begin{equation}
+  H(s) = \frac{V_{\text{OUT}}(s)}{V_{\text{IN}}(s)}
+  \label{eq:Func_trans}
+\end{equation}
+
+Para obtener la respuesta en frecuencia en régimen permanente, se realiza el mapeo $s = j\omega$, donde $j$ es la unidad imaginaria \cite{nilsson2015circuitos}.
+
+Como $H(j\omega)$ es una función de variable compleja, la señal de salida experimenta un cambio tanto en magnitud como en fase respecto a la entrada. Para analizar este comportamiento de forma sistemática existen los \textbf{diagramas de Bode} \cite{alexander2018fundamentos}.
+
+Un diagrama de Bode consta de dos gráficas dispuestas verticalmente que comparten el eje horizontal, en el cual se representa la frecuencia angular en escala logarítmica. La primera gráfica contiene en el eje vertical la magnitud en decibeles de $H(j\omega)$ y la segunda, la fase en grados de $H(j\omega)$ \cite{alexander2018fundamentos}.
+
+En este diagrama es posible identificar la frecuencia de corte de un filtro RC. Un método consiste en ubicar la frecuencia angular donde la magnitud decae en $-3\text{ dB}$, o equivalentemente a través del desfase: para el filtro LP un desfase de $-45^\circ$ y para el filtro HP un desfase de $+45^\circ$. Otro método asintótico es identificar el punto donde la respuesta en magnitud comienza a presentar una pendiente de $\pm20~\text{dB/década}$ \cite{boylestad2018introduccion, alexander2018fundamentos}.
+
+Comprender y verificar estos parámetros resulta esencial en el diseño de circuitos más complejos, donde los filtros RC desempeñan un papel clave en las etapas de acondicionamiento de señal: suprimiendo ruido de alta frecuencia, eliminando componentes de corriente continua (offset de DC) o delimitando el ancho de banda útil en las cadenas de adquisición de datos.
+
+\newpage
+
+\section{Marco Teórico}
+% Funcion de transferencia de LP, HP y BP.
+% Conversion gan lineal a dB
+
+\subsection{Función de transferencia}
+\subsubsection{Filtro Pasa-Bajas (LP)}
+
+Considérese un circuito pasivo conformado por un resistor con resistencia $R$ y un capacitor de capacitancia $C$ conectados en serie, alimentados por una fuente de voltaje dependiente del tiempo $v_{\text{in}}(t)$ y dentro de la malla circula una corriente $i(t)$.
+
+Al aplicar la Ley de Tensiones de Kirchhoff (LTK) a lo largo de la malla en sentido horario, la suma algebraica de las diferencias de potencial debe anularse:
+\begin{equation}
+v_{\text{in}}(t) - v_R(t) - v_C(t) = 0
+\end{equation}
+
+Sustituyendo las ecuaciones de tensión para cada elemento, se deduce la ecuación íntegro-diferencial que describe la dinámica del circuito ante la señal de entrada:
+\begin{equation}
+v_{\text{in}}(t) = R \, i(t) + \frac{1}{C} \int_{0}^{t} i(\tau) \, d\tau
+\label{eq:vin_temporal_lp}
+\end{equation}
+
+En la topología pasa-bajas, la señal de respuesta $v_{\text{out}}(t)$ se adquiere directamente sobre las terminales del capacitor ($v_{\text{out}}(t) = v_C(t)$), de modo que la tensión de salida queda dada por:
+\begin{equation}
+v_{\text{out}}(t) = \frac{1}{C} \int_{0}^{t} i(\tau) \, d\tau
+\label{eq:vout_temporal_lp}
+\end{equation}
+
+Para trasladar el análisis al dominio operacional complejo (dominio de la frecuencia), se aplica la transformada de Laplace ($\mathcal{L}$) término a término sobre las expresiones temporales. Empleando la propiedad de linealidad y el teorema de integración temporal ($\mathcal{L}\{\int_0^t f(\tau)\,d\tau\} = \frac{F(s)}{s}$), la tensión de entrada descrita en la ecuación~(\ref{eq:vin_temporal_lp}) se transforma como:
+\begin{equation}
+V_{\text{IN}}(s) = R \, I(s) + \frac{1}{sC} I(s) = I(s) \left( R + \frac{1}{sC} \right)
+\label{eq:vin_laplace_lp}
+\end{equation}
+
+De forma análoga, transformando la tensión de salida dada por la ecuación~(\ref{eq:vout_temporal_lp}):
+\begin{equation}
+V_{\text{OUT}}(s) = \frac{1}{sC} I(s)
+\label{eq:vout_laplace_lp}
+\end{equation}
+
+A partir de la definición formal de la función de transferencia presentada en la ecuación~(\ref{eq:Func_trans}), se sustituyen las expresiones~(\ref{eq:vin_laplace_lp}) y~(\ref{eq:vout_laplace_lp}):
+\begin{equation}
+H(s) = \frac{V_{\text{OUT}}(s)}{V_{\text{IN}}(s)} = \frac{\dfrac{1}{sC} I(s)}{I(s) \left( R + \dfrac{1}{sC} \right)}
+\end{equation}
+
+Cancelando el término común de corriente $I(s)$ y multiplicando tanto el numerador como el denominador por el factor $sC$, se obtiene:
+\begin{equation}
+H(s) = \frac{1}{1 + sRC}
+\label{eq:hs_lp}
+\end{equation}
+
+Considerando la definición de la frecuencia de corte angular $\omega_c = \frac{1}{RC}$ (o equivalentemente $RC = \frac{1}{\omega_c}$), la función de transferencia normalizada para el filtro pasa-bajas se reduce a su forma canónica de primer orden:
+\begin{equation}
+H(s) = \frac{1}{1 + \dfrac{s}{\omega_c}}
+\end{equation}
+
+\subsubsection{Filtro Pasa-Altas (HP)}
+
+Por su parte, la configuración pasa-altas parte de la misma construcción del circuito en serie y se rige bajo la misma Ley de Tensiones de Kirchhoff (LTK) que da origen a la ecuación~(\ref{eq:vin_temporal_lp}). La única modificación radica en la disposición de los componentes en la malla, de modo que la señal de salida se toma ahora directamente sobre las terminales del resistor ($v_{\text{out}}(t) = v_R(t)$), cumpliéndose por ley de Ohm:
+\begin{equation}
+v_{\text{out}}(t) = R \, i(t).
+\label{eq:vout_temporal_hp}
+\end{equation}
+
+Al transformar la ecuación~(\ref{eq:vout_temporal_hp}) al dominio de Laplace, se obtiene:
+\begin{equation}
+V_{\text{OUT}}(s) = R \, I(s).
+\label{eq:vout_laplace_hp}
+\end{equation}
+
+Dividiendo la tensión de salida~(\ref{eq:vout_laplace_hp}) entre la tensión de entrada expresada en la ecuación~(\ref{eq:vin_laplace_lp}), la función de transferencia para la etapa pasa-altas toma la forma:
+\begin{equation}
+H_{\text{HP}}(s) = \frac{V_{\text{OUT}}(s)}{V_{\text{IN}}(s)} = \frac{R \, I(s)}{I(s) \left( R + \dfrac{1}{sC} \right)}.
+\end{equation}
+
+Simplificando la corriente $I(s)$ y multiplicando el numerador y denominador por $sC$, resulta:
+\begin{equation}
+H_{\text{HP}}(s) = \frac{sRC}{1 + sRC}.
+\label{eq:hs_hp}
+\end{equation}
+
+Definiendo la frecuencia de corte inferior como $\omega_c = \frac{1}{RC}$, la expresión canónica de primer orden queda expresada como:
+\begin{equation}
+H_{\text{HP}}(s) = \frac{\dfrac{s}{\omega_c}}{1 + \dfrac{s}{\omega_c}}.
+\end{equation}
+
+\subsubsection{Filtro pasa-banda (BP) mediante cascada ideal desacoplada}
+
+Un filtro pasa-banda analógico puede construirse conectando en cascada una etapa pasa-bajas (LP) y una etapa pasa-altas (HP).
+
+Asumiendo un comportamiento ideal en el que ambas etapas se encuentran completamente desacopladas. Bajo esta consideración de no interferencia. La función de transferencia global del sistema se determina mediante el producto directo de las funciones de transferencia individuales:
+\begin{equation}
+H_{\text{ideal}}(s) = H_{\text{LP}}(s) \cdot H_{\text{HP}}(s).
+\label{eq:hs_producto}
+\end{equation}
+
+Designando los componentes de la etapa pasa-altas como $R_1, C_1$, $\omega_{c1}$ y los de la etapa pasa-bajas como $R_2, C_2$, $\omega_{c2}$, se sustituyen las funciones~(\ref{eq:hs_lp}) y~(\ref{eq:hs_hp}) en~(\ref{eq:hs_producto}):
+\begin{equation}
+H_{\text{ideal}}(s) = \left( \frac{1}{1 + s R_2 C_2} \right) \left( \frac{s R_1 C_1}{1 + s R_1 C_1} \right).
+\end{equation}
+
+Simplificando en términos de las frecuencias de corte angulares, la función se reduce a:
+\begin{equation}
+H_{\text{ideal}}(s) = \frac{\dfrac{s}{\omega_{c1}}}{\left(1 + \dfrac{s}{\omega_{c2}}\right)\left(1 + \dfrac{s}{\omega_{c1}}\right)}.
+\label{eq:hs_ideal_canonica}
+\end{equation}
+
+\subsection{Relaciones de conversión y escalas}
+Para realizar un correcto análisis a partir de los instrumentos de laboratorio, es necesario realizar algunas conversiones de unidades, pues el osciloscopio y generador de funciones solo registran frecuencia en Hz y amplitudes de voltaje pico a pico.\\
+Para trabajar en el dominio de la frecuencia, es necesaria la frecuencia angular ($\omega [\text{~rad/s}]$) la cual se relaciona con la frecuancia cíclica ($f\text{~[Hz]}$) como:
+\begin{equation}
+  \omega = 2\pi f
+  \label{eq:conver_w-f}
+\end{equation}
+Por otro lado, la ganancia de voltaje en escala lineal se define como la razón entre el voltaje de salida y el de entrada:
+\begin{equation*}
+  G = \frac{V_{\text{out}}}{V_{\text{in}}}
+\end{equation*}
+Dado que los filtros analógicos operan sobre rangos dinámicos amplios, la magnitud de la función de transferencia se expresa comúnmente en escala logarítmica utilizando decibeles ($\text{dB}$). La escala en decibeles ($G_{\text{dB}}$) se relaciona con la lineal ($G$) como:
+\begin{equation}
+  G_{\text{dB}} = 20\log_{10}(G)
+    \label{eq:conver_lineal-dB}
+\end{equation}
+
+\begin{abstract}
+  En este trabajo se analiza el comportamiento en el dominio de la frecuencia de un filtro pasa-banda RC a partir de su diagrama de Bode en magnitud y la determinación de sus frecuencias de corte. Las mediciones de laboratorio se contrastan con simulaciones implementadas en \textit{Proteus}, evaluando el efecto de carga entre etapas y la influencia de los instrumentos de medición, obteniéndose discrepancias de hasta un 10.26\,\% en la ganancia en escala lineal.
+
+\end{abstract}
+
+
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem{alexander2018fundamentos}
+C.~K. Alexander y M.~N.~O. Sadiku, \emph{Fundamentos de Circuitos Eléctricos}, 6.\textsuperscript{a}~ed. México: McGraw-Hill Education, 2018.
+
+\bibitem{boylestad2018introduccion}
+R.~L. Boylestad, \emph{Introducción al Análisis de Circuitos}, 13.\textsuperscript{a}~ed. México: Pearson Educación, 2018.
+
+\bibitem{nilsson2015circuitos}
+J.~W. Nilsson y S.~A. Riedel, \emph{x}, 10.\textsuperscript{a}~ed. Madrid: Pearson Educación, 2015.
+
+\end{thebibliography}
+
+% la dependencia inversa de la reactancia capacitiva con respecto a la frecuencia angular de la señal de entrada, esto es: 
+\end{document}
