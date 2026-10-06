@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{booktabs}
+
+\title{resultados P3\_electronica}
+\author{Jesús Brandon Villanueva Rivas}
+\date{September 2026}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Resultados}
+
+\begin{table}[htbp]
+\caption{Caracterización del diodo 1N4007.}
+\label{tab:dato_1N4007}
+\begin{tabular}{cccc}
+\toprule
+$V_S$ [V] & $V_D$ [V] & $V_R$ [V] & $I_D$ [mA] \\
+\midrule
+0.0 & 0.0000 & 0.000 & 0.00 \\
+0.1 & 0.1465 & 0.000 & 0.00 \\
+0.2 & 0.2149 & 0.000 & 0.00 \\
+0.3 & 0.3102 & 0.000 & 0.00 \\
+0.4 & 0.4170 & 0.000 & 0.01 \\
+0.5 & 0.4900 & 0.010 & 0.13 \\
+0.6 & 0.5450 & 0.055 & 0.53 \\
+0.7 & 0.5700 & 0.130 & 0.73 \\
+0.8 & 0.5880 & 0.212 & 1.02 \\
+0.9 & 0.6130 & 0.287 & 1.33 \\
+1.0 & 0.6210 & 0.379 & 1.87 \\
+1.1 & 0.6280 & 0.472 & 2.12 \\
+1.2 & 0.6390 & 0.561 & 2.62 \\
+1.3 & 0.6450 & 0.655 & 3.12 \\
+1.4 & 0.6510 & 0.749 & 3.56 \\
+1.5 & 0.6590 & 0.841 & 3.92 \\
+1.6 & 0.6620 & 0.938 & 4.16 \\
+1.7 & 0.6670 & 1.033 & 4.78 \\
+1.8 & 0.6700 & 1.130 & 5.13 \\
+1.9 & 0.6740 & 1.226 & 5.51 \\
+2.0 & 0.6770 & 1.323 & 5.98 \\
+2.1 & 0.6800 & 1.420 & 6.29 \\
+2.2 & 0.6830 & 1.517 & 6.77 \\
+2.3 & 0.6860 & 1.614 & 7.18 \\
+2.4 & 0.6890 & 1.711 & 7.68 \\
+2.5 & 0.6910 & 1.809 & 8.06 \\
+2.6 & 0.6950 & 1.905 & 8.41 \\
+2.7 & 0.6970 & 2.003 & 9.14 \\
+2.8 & 0.6980 & 2.102 & 9.65 \\
+2.9 & 0.7000 & 2.200 & 9.94 \\
+3.0 & 0.7020 & 2.298 & 10.34 \\
+3.1 & 0.7020 & 2.398 & 10.64 \\
+3.2 & 0.7030 & 2.497 & 11.04 \\
+3.3 & 0.7050 & 2.595 & 11.43 \\
+3.4 & 0.7070 & 2.693 & 12.04 \\
+3.5 & 0.7080 & 2.792 & 12.31 \\
+3.6 & 0.7100 & 2.890 & 12.73 \\
+3.7 & 0.7120 & 2.988 & 13.39 \\
+3.8 & 0.7130 & 3.087 & 13.79 \\
+3.9 & 0.7140 & 3.186 & 14.13 \\
+4.0 & 0.7160 & 3.284 & 14.50 \\
+4.1 & 0.7170 & 3.383 & 15.09 \\
+4.2 & 0.7190 & 3.481 & 15.51 \\
+4.3 & 0.7200 & 3.580 & 15.92 \\
+4.4 & 0.7210 & 3.679 & 16.33 \\
+4.5 & 0.7220 & 3.778 & 16.71 \\
+4.6 & 0.7240 & 3.876 & 17.44 \\
+4.7 & 0.7240 & 3.976 & 17.80 \\
+4.8 & 0.7250 & 4.075 & 18.22 \\
+4.9 & 0.7270 & 4.173 & 18.84 \\
+5.0 & 0.7280 & 4.272 & 19.30 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Dados los datos de la tabla \ref{tab:dato_1N4007} y los datos simulados en Kicad se construyo la gráfica \ref{} y \ref{}.
+La gráfica \ref{fig:VD_VS} muestra cómo cambia el voltaje en las terminales del diodo ($V_D$) respecto al voltaje de entrada ($V_S$), donde se aprecian dos regiones principales:
+
+\begin{itemize}
+  \item Cuando $V_S < 0.6\text{ V}$, prácticamente toda la caída de tensión se concentra en el diodo ($V_D \approx V_S$) y el voltaje en la resistencia es nulo.
+  \item Cuando $V_S > 0.6\text{ V}$, el voltaje en el diodo se estabiliza (aumenta muy suavemente) y el resto de la caída de tensión se transfiere a la resistencia.
+\end{itemize}
+
+
+
+De igual manera, se pueden observar tres regiones principales en la gráfica \ref{fig:ID_VD}:
+\begin{itemize}
+  \item Cuando $V_D < 0.4900~\text{V}$, la corriente es prácticamente nula (por debajo de la resolución del multímetro).
+  \item En el rango $0.4900~\text{V} \le V_D \le 0.5880~\text{V}$ comienza el encendido del diodo (inicio de la conducción). Además, a partir de los datos de la tabla se aprecia que en este intervalo ocurre un incremento de un orden de magnitud en la corriente (de $0.13~\text{mA}$ a $1.02~\text{mA}$).
+  \item Cuando $V_D > 0.5880~\text{V}$, la corriente en el diodo crece de manera exponencial, entrando completamente en la zona de conducción.
+\end{itemize}
+
+Notemos que la zona de conducción inicia antes de los $0.7~\text{V}$. Este valor es teórico y proviene de un modelo simplificado (aproximación de caída constante). En esta práctica, el diodo comenzó a conducir de forma medible desde los $0.49~\text{V}$.
+
+Asimismo, la comparación entre los datos experimentales y simulados deja ver un desplazamiento hacia la izquierda de la curva experimental respecto a la simulada. 
+La simulación y las hojas de datos consideran un entorno a temperatura de referencia ($25~^{\circ}\text{C}$); no obstante, en la práctica la potencia disipada por el propio diodo genera calor por efecto Joule. Este incremento térmico reduce la barrera de potencial del silicio, adelantando el codo de conducción. 
+Otro factor no contemplado en el modelo genérico de la simulación son las tolerancias de fabricación del componente real, donde la concentración de dopado puede variar e introducir desviaciones en sus parámetros físicos (como la corriente de saturación inversa $I_s$ y el factor de idealidad $\eta$). 
+Finalmente, la resolución del multímetro y el efecto de carga introducido por el multímetro al medir corriente en serie afectan la lectura.
+
+\end{document}
