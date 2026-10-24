@@ -1,0 +1,819 @@
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 165.9
+Voltaje FSR: 0.811 V
+Resistencia FSR: 51.66 kOhm
+Lectura Balanza: 130.408 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 172.5
+Voltaje FSR: 0.843 V
+Resistencia FSR: 49.30 kOhm
+Lectura Balanza: 130.505 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 172.5
+Voltaje FSR: 0.843 V
+Resistencia FSR: 49.30 kOhm
+Lectura Balanza: 130.171 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 244.1
+Voltaje FSR: 1.193 V
+Resistencia FSR: 31.91 kOhm
+Lectura Balanza: 140.261 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 245.0
+Voltaje FSR: 1.197 V
+Resistencia FSR: 31.76 kOhm
+Lectura Balanza: 140.401 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 245.1
+Voltaje FSR: 1.198 V
+Resistencia FSR: 31.74 kOhm
+Lectura Balanza: 140.420 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 248.2
+Voltaje FSR: 1.213 V
+Resistencia FSR: 31.22 kOhm
+Lectura Balanza: 151.367 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 260.0
+Voltaje FSR: 1.271 V
+Resistencia FSR: 29.35 kOhm
+Lectura Balanza: 151.404 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 263.9
+Voltaje FSR: 1.290 V
+Resistencia FSR: 28.76 kOhm
+Lectura Balanza: 151.557 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 381.9
+Voltaje FSR: 1.867 V
+Resistencia FSR: 16.79 kOhm
+Lectura Balanza: 169.705 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 383.8
+Voltaje FSR: 1.876 V
+Resistencia FSR: 16.65 kOhm
+Lectura Balanza: 169.898 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 387.1
+Voltaje FSR: 1.892 V
+Resistencia FSR: 16.43 kOhm
+Lectura Balanza: 169.683 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 383.9
+Voltaje FSR: 1.876 V
+Resistencia FSR: 16.65 kOhm
+Lectura Balanza: 166.713 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 382.1
+Voltaje FSR: 1.868 V
+Resistencia FSR: 16.77 kOhm
+Lectura Balanza: 166.676 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 382.0
+Voltaje FSR: 1.867 V
+Resistencia FSR: 16.78 kOhm
+Lectura Balanza: 166.704 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 459.0
+Voltaje FSR: 2.243 V
+Resistencia FSR: 12.29 kOhm
+Lectura Balanza: 192.094 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 459.8
+Voltaje FSR: 2.247 V
+Resistencia FSR: 12.25 kOhm
+Lectura Balanza: 191.885 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 451.4
+Voltaje FSR: 2.206 V
+Resistencia FSR: 12.66 kOhm
+Lectura Balanza: 191.583 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 452.7
+Voltaje FSR: 2.213 V
+Resistencia FSR: 12.60 kOhm
+Lectura Balanza: 191.427 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 575.1
+Voltaje FSR: 2.811 V
+Resistencia FSR: 7.79 kOhm
+Lectura Balanza: 227.751 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 578.4
+Voltaje FSR: 2.827 V
+Resistencia FSR: 7.69 kOhm
+Lectura Balanza: 227.539 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 579.0
+Voltaje FSR: 2.830 V
+Resistencia FSR: 7.67 kOhm
+Lectura Balanza: 227.455 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 727.1
+Voltaje FSR: 3.554 V
+Resistencia FSR: 4.07 kOhm
+Lectura Balanza: 376.451 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 734.9
+Voltaje FSR: 3.592 V
+Resistencia FSR: 3.92 kOhm
+Lectura Balanza: 376.750 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 738.9
+Voltaje FSR: 3.611 V
+Resistencia FSR: 3.84 kOhm
+Lectura Balanza: 373.662 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 712.6
+Voltaje FSR: 3.483 V
+Resistencia FSR: 4.36 kOhm
+Lectura Balanza: 341.342 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 720.3
+Voltaje FSR: 3.521 V
+Resistencia FSR: 4.20 kOhm
+Lectura Balanza: 341.488 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 721.9
+Voltaje FSR: 3.528 V
+Resistencia FSR: 4.17 kOhm
+Lectura Balanza: 341.404 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 775.7
+Voltaje FSR: 3.791 V
+Resistencia FSR: 3.19 kOhm
+Lectura Balanza: 437.604 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 781.7
+Voltaje FSR: 3.821 V
+Resistencia FSR: 3.09 kOhm
+Lectura Balanza: 438.059 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 784.1
+Voltaje FSR: 3.832 V
+Resistencia FSR: 3.05 kOhm
+Lectura Balanza: 438.168 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 824.5
+Voltaje FSR: 4.030 V
+Resistencia FSR: 2.41 kOhm
+Lectura Balanza: 544.417 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 830.2
+Voltaje FSR: 4.058 V
+Resistencia FSR: 2.32 kOhm
+Lectura Balanza: 545.912 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 832.4
+Voltaje FSR: 4.068 V
+Resistencia FSR: 2.29 kOhm
+Lectura Balanza: 545.866 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 851.0
+Voltaje FSR: 4.159 V
+Resistencia FSR: 2.02 kOhm
+Lectura Balanza: 643.782 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 851.8
+Voltaje FSR: 4.163 V
+Resistencia FSR: 2.01 kOhm
+Lectura Balanza: 644.290 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 852.4
+Voltaje FSR: 4.166 V
+Resistencia FSR: 2.00 kOhm
+Lectura Balanza: 644.814 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 852.6
+Voltaje FSR: 4.167 V
+Resistencia FSR: 2.00 kOhm
+Lectura Balanza: 644.804 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 853.0
+Voltaje FSR: 4.169 V
+Resistencia FSR: 1.99 kOhm
+Lectura Balanza: 644.745 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 864.4
+Voltaje FSR: 4.225 V
+Resistencia FSR: 1.83 kOhm
+Lectura Balanza: 741.711 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 866.4
+Voltaje FSR: 4.235 V
+Resistencia FSR: 1.81 kOhm
+Lectura Balanza: 741.711 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 867.7
+Voltaje FSR: 4.241 V
+Resistencia FSR: 1.79 kOhm
+Lectura Balanza: 742.269 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 848.6
+Voltaje FSR: 4.148 V
+Resistencia FSR: 2.06 kOhm
+Lectura Balanza: 841.731 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 844.4
+Voltaje FSR: 4.127 V
+Resistencia FSR: 2.12 kOhm
+Lectura Balanza: 840.454 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 843.2
+Voltaje FSR: 4.121 V
+Resistencia FSR: 2.13 kOhm
+Lectura Balanza: 839.731 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 842.8
+Voltaje FSR: 4.119 V
+Resistencia FSR: 2.14 kOhm
+Lectura Balanza: 839.223 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 841.6
+Voltaje FSR: 4.113 V
+Resistencia FSR: 2.16 kOhm
+Lectura Balanza: 839.460 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 909.0
+Voltaje FSR: 4.443 V
+Resistencia FSR: 1.25 kOhm
+Lectura Balanza: 973.725 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 910.8
+Voltaje FSR: 4.452 V
+Resistencia FSR: 1.23 kOhm
+Lectura Balanza: 974.267 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 910.9
+Voltaje FSR: 4.452 V
+Resistencia FSR: 1.23 kOhm
+Lectura Balanza: 974.383 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 911.6
+Voltaje FSR: 4.456 V
+Resistencia FSR: 1.22 kOhm
+Lectura Balanza: 974.585 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 915.3
+Voltaje FSR: 4.474 V
+Resistencia FSR: 1.18 kOhm
+Lectura Balanza: 1096.265 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 917.5
+Voltaje FSR: 4.484 V
+Resistencia FSR: 1.15 kOhm
+Lectura Balanza: 1097.038 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 918.5
+Voltaje FSR: 4.489 V
+Resistencia FSR: 1.14 kOhm
+Lectura Balanza: 1096.795 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 918.9
+Voltaje FSR: 4.491 V
+Resistencia FSR: 1.13 kOhm
+Lectura Balanza: 1096.736 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 915.5
+Voltaje FSR: 4.475 V
+Resistencia FSR: 1.17 kOhm
+Lectura Balanza: 1165.944 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 916.3
+Voltaje FSR: 4.478 V
+Resistencia FSR: 1.16 kOhm
+Lectura Balanza: 1166.838 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 917.6
+Voltaje FSR: 4.485 V
+Resistencia FSR: 1.15 kOhm
+Lectura Balanza: 1167.259 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 917.6
+Voltaje FSR: 4.485 V
+Resistencia FSR: 1.15 kOhm
+Lectura Balanza: 1167.134 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 917.8
+Voltaje FSR: 4.486 V
+Resistencia FSR: 1.15 kOhm
+Lectura Balanza: 1167.371 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 933.4
+Voltaje FSR: 4.562 V
+Resistencia FSR: 0.96 kOhm
+Lectura Balanza: 1419.643 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 934.7
+Voltaje FSR: 4.568 V
+Resistencia FSR: 0.94 kOhm
+Lectura Balanza: 1419.839 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 935.4
+Voltaje FSR: 4.572 V
+Resistencia FSR: 0.94 kOhm
+Lectura Balanza: 1419.879 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 235.9
+Voltaje FSR: 1.153 V
+Resistencia FSR: 33.37 kOhm
+Lectura Balanza: 127.535 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 212.2
+Voltaje FSR: 1.037 V
+Resistencia FSR: 38.21 kOhm
+Lectura Balanza: 120.636 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 105.978 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 109.013 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 110.309 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 110.889 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 114.173 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 117.252 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 118.816 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 10.9
+Voltaje FSR: 0.053 V
+Resistencia FSR: 928.53 kOhm
+Lectura Balanza: 126.435 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 37.7
+Voltaje FSR: 0.184 V
+Resistencia FSR: 261.35 kOhm
+Lectura Balanza: 127.619 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 123.353 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 8.6
+Voltaje FSR: 0.042 V
+Resistencia FSR: 1179.53 kOhm
+Lectura Balanza: 122.693 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 18.0
+Voltaje FSR: 0.088 V
+Resistencia FSR: 558.33 kOhm
+Lectura Balanza: 127.030 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 22.6
+Voltaje FSR: 0.110 V
+Resistencia FSR: 442.65 kOhm
+Lectura Balanza: 126.560 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 125.815 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 6.6
+Voltaje FSR: 0.032 V
+Resistencia FSR: 1540.00 kOhm
+Lectura Balanza: 124.759 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 4.0
+Voltaje FSR: 0.020 V
+Resistencia FSR: 2547.50 kOhm
+Lectura Balanza: 125.207 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 15.4
+Voltaje FSR: 0.075 V
+Resistencia FSR: 654.29 kOhm
+Lectura Balanza: 124.674 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 17.6
+Voltaje FSR: 0.086 V
+Resistencia FSR: 571.25 kOhm
+Lectura Balanza: 125.541 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 18.9
+Voltaje FSR: 0.092 V
+Resistencia FSR: 531.27 kOhm
+Lectura Balanza: 125.802 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 14.4
+Voltaje FSR: 0.070 V
+Resistencia FSR: 700.42 kOhm
+Lectura Balanza: 124.995 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 125.594 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 0.0
+Voltaje FSR: 0.000 V
+Resistencia FSR: > 10 MOhm (Circuito abierto / Sin carga)
+Lectura Balanza: 125.114 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 3.6
+Voltaje FSR: 0.018 V
+Resistencia FSR: 2831.67 kOhm
+Lectura Balanza: 126.934 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 20.0
+Voltaje FSR: 0.098 V
+Resistencia FSR: 501.50 kOhm
+Lectura Balanza: 126.669 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 16.0
+Voltaje FSR: 0.078 V
+Resistencia FSR: 629.38 kOhm
+Lectura Balanza: 126.232 (crudos/kg segun factor)
+--------------------------------
+
+Estabilizando lectura (3 s)...
+Tomando datos...
+--------------------------------
+Cuentas ADC: 30.7
+Voltaje FSR: 0.150 V
+Resistencia FSR: 323.22 kOhm
+Lectura Balanza: 126.865 (crudos/kg segun factor)
+--------------------------------
